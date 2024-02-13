@@ -1,0 +1,40 @@
+.blue-banner{
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.blue-banner h1{
+    margin-bottom: 10px;
+}
+.read-more{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bff;
+    color: #007bff;
+    text-decoration: none;
+    border: radius 5px;
+    
+}
+.boxes{
+    display: flex;
+    justify-content: space around;
+    margin-top: 20px;
+}
+.box{
+    flex: 0 1 30%;
+    background-color: #5500ff;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.box-content{
+    text-align: center;
+
+}
+.box-content img{
+    width: 100px;
+    height: 100px;
+    border: 2px dashed #ccc;
+    margin-bottom: 10px;
+}
